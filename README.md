@@ -1,10 +1,3 @@
-# Crowdfunding_ETL
--Keegan Nair
--Mandeep Sohi
-
-
-
-
 # ETL  Crowdfunding Mini Project
 
 ## Overview
@@ -136,5 +129,3 @@ Run SELECT statements to verify the imported data.
 - Run the code in the file crowdfunding_db_schema. Do not run the sections with constraints to avoid error issues. Instead run the code to make the tables then import the csv files per table.
 - Then run constraint code to show how each table connects eg; one to many.
 
-
-Addxdf
