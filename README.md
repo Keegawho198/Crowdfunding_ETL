@@ -2,28 +2,12 @@
 -Keegan Nair
 -Mandeep Sohi
 
-Run code in ETL_Mini_project
-
-
-We have used option 1 for extracting and transforming the data from contact excel file.
-
-
-Once code has been run and CSV files have been exported (there should be 4), go into pg-admin.
-
-
-Run the code in the file crowdfunding_db_schema. Do not run the sections with constraints to avoid error issues. Instead run the code to make the tables then import the csv files per table.
-
-
-Then run constraint code to show how each table connects eg; one to many.
-
-
-The Schema code came from the ERD application and example of how it looks can be found in QuickDBD-diagram.
 
 
 
 # ETL  Crowdfunding Mini Project
 
-Overview
+## Overview
 
 This project involves building an ETL (Extract, Transform, Load) pipeline using Python, Pandas, and either Python dictionary methods or regular expressions. The goal is to process crowdfunding data from Excel files, transform the data into structured CSV files, and load it into a PostgreSQL database.
 
@@ -97,11 +81,11 @@ category_id (matching the category_id from the category DataFrame)
 
 subcategory_id (matching the subcategory_id from the subcategory DataFrame)
 
-Save the campaign DataFrame as campaign.csv and upload it to GitHub.
+(Save the campaign DataFrame as campaign.csv and upload it to GitHub.)
 
 ## 3. Create the Contacts DataFrame
 
-Python Dictionary Method
+Using Python Dictionary Method
 
 Import contacts.xlsx into a DataFrame.
 
@@ -143,3 +127,14 @@ Run SELECT statements to verify the imported data.
 - Keegan Nair
 
 - Mandeep Sohi
+
+
+## Additional notes: 
+
+- Run code in ETL_Mini_project
+- Once code has been run and CSV files have been exported (there should be 4), go into pg-admin.
+- Run the code in the file crowdfunding_db_schema. Do not run the sections with constraints to avoid error issues. Instead run the code to make the tables then import the csv files per table.
+- Then run constraint code to show how each table connects eg; one to many.
+
+
+Addxdf
